@@ -1,3 +1,5 @@
+import "./nav.styles.scss";
+
 export const Nav = () => (
   <div className="nav">
     <svg

@@ -1,3 +1,5 @@
+import "./main.styles.scss";
+
 export const Main = ({
   title,
   alt,

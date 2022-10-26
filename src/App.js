@@ -1,6 +1,6 @@
-import { Nav } from "./component/nav";
-import { Main } from "./component/main";
-import { Data } from "./component/data";
+import { Nav } from "./component/nav/nav";
+import { Main } from "./component/main/main";
+import { Data } from "./component/data/data";
 import "./App.scss";
 
 export const App = () => {
