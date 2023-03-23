@@ -3,8 +3,8 @@
 }
 
 * {
-  box-sizing: border-box;
-
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -12,3 +12,4 @@ body {
   padding: 0 20px;
   font-family: "Inter", sans-serif;
 }
+/*# sourceMappingURL=App.css.map */

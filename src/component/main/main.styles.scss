@@ -1,3 +1,8 @@
+:root {
+  --dark-grey: red;
+  --light-grey: #918E9B;
+}
+
 .main {
   display: flex;
   align-items: center;
@@ -24,7 +29,7 @@
     font-size: 10.24px;
     line-height: 12px;
     letter-spacing: 0.17em;
-    color: #2B283A;
+    color: var(--grey);
     width: 72px;
     height: 10px;
     margin-right: 4px;
@@ -38,7 +43,7 @@
     font-size: 10.24px;
     line-height: 12px;
     text-decoration-line: underline;
-    color: #918E9B;
+    color: var(--light-grey);
   }
 
   &-title {
@@ -47,7 +52,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-    color: #2B283A;
+    color: var(--dark-grey);
   }
 
   &-date {
@@ -56,7 +61,7 @@
     font-weight: 700;
     font-size: 10.24px;
     line-height: 12px;
-    color: #2B283A;
+    color: var(--dark-grey);
     margin-top: 7px;
     margin-bottom: 9px;
   }
@@ -67,6 +72,6 @@
     font-weight: 400;
     font-size: 10.24px;
     line-height: 150%;
-    color: #2B283A;
+    color: var(--dark-grey);
   }
 }
